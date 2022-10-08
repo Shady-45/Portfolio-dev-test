@@ -5,7 +5,7 @@ import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Image from "next/image";
 
-const Property = () => {
+const Connect = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -74,4 +74,4 @@ const Property = () => {
   );
 };
 
-export default Property;
+export default Connect;
