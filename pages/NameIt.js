@@ -4,7 +4,7 @@ import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Image from "next/image";
 
-const Taskit = () => {
+const NameIt = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -17,8 +17,8 @@ const Taskit = () => {
           alt="image"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Taskit</h2>
-          <h3>React JS / TypeScript</h3>
+          <h2 className="py-2">Nameit</h2>
+          <h3>React JS / JavaScript</h3>
         </div>
       </div>
 
@@ -27,20 +27,21 @@ const Taskit = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            React JS and TypeScript were used to construct this app, which is
-            hosted on Netlify. Users can set tasks, change tasks, and cancel
-            tasks after completion in this straightforward to-do list
-            application.
+            React JS and JavaScript were used to construct this app, which is
+            hosted on Netlify. With the help of this initiative, customers may
+            now learn about alternative names for their projects and determine
+            whether those alternative names are available for purchase on
+            Godaddy.
           </p>
           <a
-            href="https://github.com/Shady-45/Todo-TypeScript"
+            href="https://github.com/Shady-45/Nameit"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://magnificent-halva-f80cec.netlify.app/"
+            href="https://rainbow-taiyaki-f3bb01.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -56,7 +57,7 @@ const Taskit = () => {
               </p>
 
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> TypeScript
+                <RiRadioButtonFill className="pr-1" /> JavaScript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Netlify
@@ -72,4 +73,4 @@ const Taskit = () => {
   );
 };
 
-export default Taskit;
+export default NameIt;

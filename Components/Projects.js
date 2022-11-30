@@ -3,7 +3,7 @@ import Link from "next/link";
 import ConnectImg from "../public/assets/projects/connect-4.png";
 import CryptoImg from "../public/assets/projects/crypto.png";
 import DisneyImg from "../public/assets/projects/disney.png";
-import TwitchImg from "../public/assets/projects/taskit.png";
+import NameitImg from "../public/assets/projects/taskit.png";
 import React from "react";
 
 import ProjectItem from "./ProjectItem";
@@ -36,9 +36,9 @@ const Projects = () => {
             Tech="React JS"
           />
           <ProjectItem
-            title="Taskit"
-            backgroundImg={TwitchImg}
-            ProjectUrl="/Taskit"
+            title="Nameit"
+            backgroundImg={NameitImg}
+            ProjectUrl="/NameIt"
             Tech="React JS"
           />
         </div>
